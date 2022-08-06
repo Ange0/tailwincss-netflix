@@ -2,6 +2,6 @@
 
 ## DEMOS
 
-![](./assets/video.mp4)
+<video class="w-full" autoplay loop src="./assets/video.mp4"></video>
 
 
