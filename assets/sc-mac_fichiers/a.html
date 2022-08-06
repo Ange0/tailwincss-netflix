@@ -1,0 +1,284 @@
+<!-- 
+    @Author: Yao kouassi Ange 
+    @email: kouassiangey@gmail.com 
+    @whatsapp: 0585540490
+    
+    go faster now in design with tailwind css :)
+-->
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><script type="text/javascript" id="mobile-simulator">
+                let pushState = History.prototype.pushState;
+                History.prototype.pushState = function(state, title, url) {
+                    let event = new CustomEvent('pushState', { detail: { state: state, title: title, url: url }});
+                    window.frameElement.dispatchEvent(event);
+                    pushState.call(this, state, title, url)
+                };</script><style id="mobile-simulator">
+            body {
+                display: block !important;
+            }
+            * {
+                image-rendering: -webkit-optimize-contrast;
+                image-rendering: optimize-contrast;
+            }
+            *:not([data-js="simulator-extension"]) {
+                cursor: url(moz-extension://92e04faa-6762-ba4c-a477-6a9bb3012f74/assets/pictos/cursor.png) 17 17, pointer !important;
+                scrollbar-width: none;
+            }
+            ::-webkit-scrollbar {
+                background: transparent;
+                width: 0 !important;
+                height: 0 !important;
+            }
+            ::-webkit-scrollbar-thumb {
+                width: 0 !important;
+                background: rgba(0,0,0,0.5);
+                border: solid 3px transparent;
+                background-clip: content-box;
+                border-radius: 17px;
+            }</style><script type="text/javascript" id="mobile-simulator">
+            Object.defineProperty(window.navigator, "userAgent", { value: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Safari/605.1.15", writable : false });
+            Object.defineProperty(window.screen, "availWidth",{ value: 1280, writable : false });
+            Object.defineProperty(window.screen, "width",{ value: 1280, writable : false });
+            Object.defineProperty(window, "devicePixelRatio",{ value: 2, writable : false });
+            Object.defineProperty(window, "outerWidth",{ value: 1280, writable : false });
+            Object.defineProperty(window, "outerHeight",{ value: 800, writable : false });
+            //Object.defineProperty(window.navigator, "serviceWorker", { value: "", writable : false });
+            ServiceWorkerContainer.prototype.register = function() { return new Promise((resolve, reject) => { reject(); }) };</script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="a_data/3.1.8"></script>
+    <title>Netflix Côte d’Ivoire - Watch TV Shows Online, Watch Movies Online</title>
+    <link rel="icon" href="https://tailwindcss-netflix.herokuapp.com/assets/favicon.png">
+<style>/* ! tailwindcss v3.1.8 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::-webkit-backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.absolute{position:absolute}.relative{position:relative}.top-\[10\%\]{top:10%}.left-\[10\%\]{left:10%}.bottom-6{bottom:1.5rem}.z-20{z-index:20}.mx-10{margin-left:2.5rem;margin-right:2.5rem}.my-20{margin-top:5rem;margin-bottom:5rem}.mt-4{margin-top:1rem}.mt-10{margin-top:2.5rem}.mb-2{margin-bottom:0.5rem}.flex{display:flex}.h-screen{height:100vh}.h-full{height:100%}.h-6{height:1.5rem}.h-16{height:4rem}.h-3{height:0.75rem}.h-\[500px\]{height:500px}.h-2{height:0.5rem}.h-3\/5{height:60%}.h-10{height:2.5rem}.h-auto{height:auto}.w-full{width:100%}.w-4\/5{width:80%}.w-5\/6{width:83.333333%}.w-2\/3{width:66.666667%}.w-3\/5{width:60%}.w-1\/2{width:50%}.flex-none{flex:none}.flex-grow{flex-grow:1}.rotate-\[45deg\]{--tw-rotate:45deg;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.flex-col{flex-direction:column}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-x-2 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(0.5rem * var(--tw-space-x-reverse));margin-left:calc(0.5rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-10 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(2.5rem * var(--tw-space-y-reverse))}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-8 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(2rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(2rem * var(--tw-space-y-reverse))}.rounded-sm{border-radius:0.125rem}.rounded-md{border-radius:0.375rem}.border-2{border-width:2px}.border-none{border-style:none}.border-\[\#222222\]{--tw-border-opacity:1;border-color:rgb(34 34 34 / var(--tw-border-opacity))}.bg-gray-200{--tw-bg-opacity:1;background-color:rgb(229 231 235 / var(--tw-bg-opacity))}.bg-\[\#e50914\]{--tw-bg-opacity:1;background-color:rgb(229 9 20 / var(--tw-bg-opacity))}.bg-stone-200{--tw-bg-opacity:1;background-color:rgb(231 229 228 / var(--tw-bg-opacity))}.bg-black{--tw-bg-opacity:1;background-color:rgb(0 0 0 / var(--tw-bg-opacity))}.bg-\[\#222222\]{--tw-bg-opacity:1;background-color:rgb(34 34 34 / var(--tw-bg-opacity))}.bg-\[\#303030\]{--tw-bg-opacity:1;background-color:rgb(48 48 48 / var(--tw-bg-opacity))}.bg-gradient-to-t{background-image:linear-gradient(to top, var(--tw-gradient-stops))}.from-black{--tw-gradient-from:#000;--tw-gradient-to:rgb(0 0 0 / 0);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-transparent{--tw-gradient-to:rgb(0 0 0 / 0);--tw-gradient-stops:var(--tw-gradient-from), transparent, var(--tw-gradient-to)}.to-black{--tw-gradient-to:#000}.bg-cover{background-size:cover}.p-2{padding:0.5rem}.p-4{padding:1rem}.p-3{padding:0.75rem}.p-6{padding:1.5rem}.px-2{padding-left:0.5rem;padding-right:0.5rem}.py-1{padding-top:0.25rem;padding-bottom:0.25rem}.px-4{padding-left:1rem;padding-right:1rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-4{padding-top:1rem;padding-bottom:1rem}.pl-2{padding-left:0.5rem}.text-center{text-align:center}.text-xs{font-size:0.75rem;line-height:1rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.font-bold{font-weight:700}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.text-\[\#2f66a1\]{--tw-text-opacity:1;color:rgb(47 102 161 / var(--tw-text-opacity))}.text-\[\#717171\]{--tw-text-opacity:1;color:rgb(113 113 113 / var(--tw-text-opacity))}.opacity-90{opacity:0.9}.focus\:border-none:focus{border-style:none}@media (min-width: 640px){.sm\:text-6xl{font-size:3.75rem;line-height:1}}@media (min-width: 768px){.md\:h-10{height:2.5rem}.md\:w-3\/5{width:60%}.md\:px-4{padding-left:1rem;padding-right:1rem}.md\:py-2{padding-top:0.5rem;padding-bottom:0.5rem}}@media (min-width: 1024px){.lg\:h-\[800px\]{height:800px}.lg\:h-16{height:4rem}.lg\:h-10{height:2.5rem}.lg\:w-2\/3{width:66.666667%}.lg\:w-\[48\%\]{width:48%}.lg\:flex-row{flex-direction:row}.lg\:items-center{align-items:center}.lg\:justify-center{justify-content:center}.lg\:space-y-0 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0px * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0px * var(--tw-space-y-reverse))}.lg\:px-8{padding-left:2rem;padding-right:2rem}.lg\:text-left{text-align:left}.lg\:text-2xl{font-size:1.5rem;line-height:2rem}.lg\:text-5xl{font-size:3rem;line-height:1}}@media (min-width: 1280px){.xl\:w-1\/2{width:50%}}</style></head>
+<body class="bg-gray-200 h-screen">
+    <div class="flex flex-col h-full">
+        <!-- Header -->
+        <div class="relative">
+            <div class="absolute bg-gradient-to-t bg-gradient-40 from-black via-transparent to-black w-full h-full">
+                <div class="flex flex-col h-full opacity-90 p-2">
+                    <div class="flex justify-between mx-10 mt-4 items-center">
+                        <svg viewBox="0 0 111 30" class="h-6 md:h-10" aria-hidden="true" focusable="false">
+                            <g id="netflix-logo">
+                                <path fill="#e50914" d="M105.06233,14.2806261 L110.999156,30 C109.249227,29.7497422 107.500234,29.4366857 105.718437,29.1554972 L102.374168,20.4686475 L98.9371075,28.4375293 C97.2499766,28.1563408 95.5928391,28.061674 93.9057081,27.8432843 L99.9372012,14.0931671 L94.4680851,-5.68434189e-14 L99.5313525,-5.68434189e-14 L102.593495,7.87421502 L105.874965,-5.68434189e-14 L110.999156,-5.68434189e-14 L105.06233,14.2806261 Z M90.4686475,-5.68434189e-14 L85.8749649,-5.68434189e-14 L85.8749649,27.2499766 C87.3746368,27.3437061 88.9371075,27.4055675 90.4686475,27.5930265 L90.4686475,-5.68434189e-14 Z M81.9055207,26.93692 C77.7186241,26.6557316 73.5307901,26.4064111 69.250164,26.3117443 L69.250164,-5.68434189e-14 L73.9366389,-5.68434189e-14 L73.9366389,21.8745899 C76.6248008,21.9373887 79.3120255,22.1557784 81.9055207,22.2804387 L81.9055207,26.93692 Z M64.2496954,10.6561065 L64.2496954,15.3435186 L57.8442216,15.3435186 L57.8442216,25.9996251 L53.2186709,25.9996251 L53.2186709,-5.68434189e-14 L66.3436123,-5.68434189e-14 L66.3436123,4.68741213 L57.8442216,4.68741213 L57.8442216,10.6561065 L64.2496954,10.6561065 Z M45.3435186,4.68741213 L45.3435186,26.2498828 C43.7810479,26.2498828 42.1876465,26.2498828 40.6561065,26.3117443 L40.6561065,4.68741213 L35.8121661,4.68741213 L35.8121661,-5.68434189e-14 L50.2183897,-5.68434189e-14 L50.2183897,4.68741213 L45.3435186,4.68741213 Z M30.749836,15.5928391 C28.687787,15.5928391 26.2498828,15.5928391 24.4999531,15.6875059 L24.4999531,22.6562939 C27.2499766,22.4678976 30,22.2495079 32.7809542,22.1557784 L32.7809542,26.6557316 L19.812541,27.6876933 L19.812541,-5.68434189e-14 L32.7809542,-5.68434189e-14 L32.7809542,4.68741213 L24.4999531,4.68741213 L24.4999531,10.9991564 C26.3126816,10.9991564 29.0936358,10.9054269 30.749836,10.9054269 L30.749836,15.5928391 Z M4.78114163,12.9684132 L4.78114163,29.3429562 C3.09401069,29.5313525 1.59340144,29.7497422 0,30 L0,-5.68434189e-14 L4.4690224,-5.68434189e-14 L10.562377,17.0315868 L10.562377,-5.68434189e-14 L15.2497891,-5.68434189e-14 L15.2497891,28.061674 C13.5935889,28.3437998 11.906458,28.4375293 10.1246602,28.6868498 L4.78114163,12.9684132 Z" id="Fill-14">
+                                </path>
+                            </g>
+                        </svg>
+                        <div>
+                            <button class="bg-[#e50914] text-white px-2 md:px-4  py-1 md:py-2 text-xs rounded-sm md:text-md">Sign In</button>
+                        </div>
+                    </div>
+                    <div class="flex items-center justify-center flex-grow">
+                       <div class="flex flex-col space-y-4 p-4 w-full md:w-3/5 xl:w-1/2">
+                            <h1 class="text-3xl sm:text-6xl text-center font-bold text-white p-4">Unlimited movies, TV shows, and more.</h1>
+                            <h2 class="text-white text-md text-center lg:text-2xl">
+                                Watch anywhere. Cancel anytime.
+                            </h2>
+                            <p class="text-white text-center lg:text-md">
+                                Ready to watch? Enter your email to create or restart your membership
+                            </p>
+                            <form class="flex flex-col lg:flex-row lg:justify-center space-y-4 lg:space-y-0">
+                                <input type="text" placeholder="Email address" class="w-full lg:w-2/3 h-16 focus:border-none pl-2 text-sm border-none">
+                                <div class="flex justify-center">
+                                    <button class="flex items-center space-x-2 bg-[#e50914] text-white px-4 py-2 rounded-sm">
+                                    <span class="text-xl font-bold">Get Started </span>
+                                        <svg class="h-3" viewBox="0 0 6 12" xmlns="http://www.w3.org/2000/svg"><desc>chevron</desc><path d="M.61 1.312l.78-.624L5.64 6l-4.25 5.312-.78-.624L4.36 6z" fill="#ffffff" fill-rule="evenodd"></path></svg>
+                                    </button>
+                                </div>
+                            </form>
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <img src="a_data/bg.jpg" class="h-[500px] lg:h-[800px] w-full bg-cover" alt="">
+        </div>
+        <!-- Header -->
+        
+        <!-- Body -->
+        <div class="flex flex-col bg-stone-200 flex-grow bg-black">
+            <!-- Tv section-->
+            <div class="flex flex-col w-full">
+                <span class="bg-[#222222] w-full h-2"></span>
+                <div class="flex w-full items-center justify-center">
+                    <div class="w-4/5">
+                        <div class="flex flex-col lg:flex-row lg:items-center text-white space-y-4 lg:space-y-0 py-4 px-2 lg:px-8">
+                            <div class="flex flex-col space-y-4 text-center lg:text-left px-4 ">
+                                <h1 class="text-3xl lg:text-5xl font-bold text-white">Enjoy on your TV.</h1>
+                                <p class="text-white lg:text-2xl ">Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+                            </div>
+                            <div class="flex-none relative  w-full lg:w-[48%]">
+                            <img class="relative z-20 w-full h-full" src="a_data/tv.png" alt="">
+                            <div class="absolute top-[10%] left-[10%] py-4 px-2 w-5/6 h-3/5">
+                                    <video class="w-full" autoplay="autoplay" loop="" src="a_data/video.mp4"></video>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Tv section -->
+
+            <!-- Download section-->
+            <div class="flex flex-col w-full">
+                <span class="bg-[#222222] w-full h-2"></span>
+                <div class="flex w-full items-center justify-center">
+                    <div class="w-4/5">
+                        <div class="flex flex-col lg:flex-row lg:items-center text-white space-y-4 lg:space-y-0 py-4 px-2 lg:px-8">
+                            <div class="flex-none relative  w-full lg:w-[48%]">
+                                <img class="relative w-full h-full" src="a_data/mobile-download.jpg" alt="">
+                                <div class="flex justify-center absolute w-full bottom-6">
+                                    <div class="flex justify-between items-center w-2/3 rounded-md border-2 border-[#222222] bg-black p-3">
+                                        <div class="flex items-center space-x-2 w-full">
+                                            <img class="h-10 lg:h-16" src="a_data/boxshot.png" alt="">
+                                            <div class="flex flex-col text-sm lg:text-md">
+                                                <div>Stranger Things</div>
+                                                <div class="text-[#2f66a1]">Downloading...</div>
+                                            </div>
+                                        </div>
+                                        <img class="h-6 lg:h-10" src="a_data/download-icon.gif" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex flex-col space-y-4 text-center lg:text-left px-4 ">
+                                <h1 class="text-3xl lg:text-5xl font-bold text-white">Download your shows to watch offline.</h1>
+                                <p class="text-white lg:text-2xl ">Save your favorites easily and always have something to watch.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Download section-->
+
+            <!-- Download section-->
+            <div class="flex flex-col w-full">
+                <span class="bg-[#222222] w-full h-2"></span>
+                <div class="flex w-full items-center justify-center p-4">
+                    <div class="w-4/5">
+                        <div class="flex flex-col lg:flex-row lg:items-center text-white space-y-4 lg:space-y-0 py-4 px-2 lg:px-8">
+                            <div class="flex flex-col space-y-4 text-center lg:text-left px-4 ">
+                                <h1 class="text-3xl lg:text-5xl font-bold text-white">Watch everywhere.</h1>
+                                <p class="text-white lg:text-2xl ">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Download section-->
+
+            <!-- Profile section-->
+            <div class="flex flex-col w-full">
+                <span class="bg-[#222222] w-full h-2"></span>
+                <div class="flex w-full items-center justify-center">
+                    <div class="w-4/5">
+                        <div class="flex flex-col lg:flex-row lg:items-center text-white space-y-4 lg:space-y-0 py-4 px-2 lg:px-8">
+                            <img class="h-auto w-full" src="a_data/profile.png" alt="">
+                            <div class="flex flex-col space-y-4 text-center lg:text-left px-4 ">
+                                <h1 class="text-3xl lg:text-5xl font-bold text-white">Create profiles for kids.</h1>
+                                <p class="text-white lg:text-2xl ">Send kids on adventures with their favorite characters in a space made just for them—free with your membership.</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Profile section-->
+
+            <!-- Ask section-->
+            <div class="flex flex-col w-full">
+                <span class="bg-[#222222] w-full h-2"></span>
+                <div class="flex w-full items-center justify-center">
+                    <div class="flex flex-col space-y-10 w-full md:w-3/5 text-center my-20">
+                        <h1 class="text-3xl lg:text-5xl font-bold text-white">Frequently Asked Questions</h1>
+                        <div class="flex flex-col space-y-2 p-2">
+                            <div class="flex justify-between items-center bg-[#303030] p-6">
+                                <div class="text-lg lg:text-2xl text-white">What is Netflix?</div>
+                                <svg viewBox="0 0 26 26" class="rotate-[45deg] h-6" focusable="true">
+                                    <path fill="#fff" d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"></path>
+                                </svg>
+                            </div>
+                            <div class="flex justify-between items-center bg-[#303030] p-6">
+                                <div class="text-lg lg:text-2xl text-white">How much does Netflix cost?</div>
+                                <svg viewBox="0 0 26 26" class="rotate-[45deg] h-6" focusable="true">
+                                    <path fill="#fff" d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"></path>
+                                </svg>
+                            </div>
+                            <div class="flex justify-between items-center bg-[#303030] p-6">
+                                <div class="text-lg lg:text-2xl text-white">Where can I watch?</div>
+                                <svg viewBox="0 0 26 26" class="rotate-[45deg] h-6" focusable="true">
+                                    <path fill="#fff" d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"></path>
+                                </svg>
+                            </div>
+                            <div class="flex justify-between items-center bg-[#303030] p-6">
+                                <div class="text-lg lg:text-2xl text-white">How do I cancel?</div>
+                                <svg viewBox="0 0 26 26" class="rotate-[45deg] h-6" focusable="true">
+                                    <path fill="#fff" d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"></path>
+                                </svg>
+                            </div>
+                            <div class="flex justify-between items-center bg-[#303030] p-6">
+                                <div class="text-lg lg:text-2xl text-white">Is Netflix good for kids?</div>
+                                <svg viewBox="0 0 26 26" class="rotate-[45deg] h-6" focusable="true">
+                                    <path fill="#fff" d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="flex flex-col space-y-4">
+                            <p class="text-white text-center lg:text-md">
+                                Ready to watch? Enter your email to create or restart your membership
+                            </p>
+                            <form class="flex flex-col lg:flex-row lg:justify-center space-y-4 lg:space-y-0">
+                                <input type="text" placeholder="Email address" class="w-full lg:w-2/3 h-16 focus:border-none pl-2 text-sm border-none">
+                                <div class="flex justify-center">
+                                    <button class="flex items-center space-x-2 bg-[#e50914] text-white px-4 py-2 rounded-sm">
+                                    <span class="text-xl font-bold">Get Started </span>
+                                        <svg class="h-3" viewBox="0 0 6 12" xmlns="http://www.w3.org/2000/svg"><desc>chevron</desc><path d="M.61 1.312l.78-.624L5.64 6l-4.25 5.312-.78-.624L4.36 6z" fill="#ffffff" fill-rule="evenodd"></path></svg>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Ask section-->
+        </div>
+        <!-- Body -->
+        
+        <!-- footer section-->
+        <div class="flex flex-col w-full bg-black">
+            <span class="bg-[#222222] w-full h-2"></span>
+            <div class="flex w-full items-center justify-center">
+                <div class="flex flex-col space-y-8 w-3/5 mt-10 mb-2 text-[#717171]">
+                    <a href="#">Questions? Contact us.</a>
+                    <div class="flex text-xs">
+                        <ul class="flex flex-col space-y-4 w-1/2">
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Investor Relations</a></li>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Speed Test</a></li>
+                        </ul>
+                        <ul class="flex flex-col space-y-4 w-1/2">
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">Jobs</a></li>
+                            <li><a href="#">Cookie Preferences</a></li>
+                            <li><a href="#">Legal Notices</a></li>
+                        </ul>
+                        <ul class="flex flex-col space-y-4 w-1/2">
+                            <li><a href="#">Account</a></li>
+                            <li><a href="#">Ways to Watch</a></li>
+                            <li><a href="#">Corporate Information</a></li>
+                            <li><a href="#">Only on Netflix</a></li>
+                        </ul>
+                        <ul class="flex flex-col space-y-4 w-1/2">
+                            <li><a href="#">Media Center</a></li>
+                            <li><a href="#">Terms of Use</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <span>Netflix Côte d’Ivoire</span>
+                </div>
+            </div>
+        </div>
+        <!-- footer section-->
+    </div>
+
+</body></html>
