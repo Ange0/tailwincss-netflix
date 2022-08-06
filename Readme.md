@@ -1,6 +1,6 @@
 
 
-## DEMOS 
+## DEMOS Netflix with tailwindcss
 <a href="https://tailwindcss-netflix.herokuapp.com/" target="_blank">Voir en direct</a>
 
 <div style="display:flex"> 
