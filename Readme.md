@@ -1,6 +1,7 @@
 
 
-## DEMOS
+## DEMOS 
+<a href="https://tailwindcss-netflix.herokuapp.com/" target="_blank">Voir en direct</a>
 
 <div style="display:flex"> 
   <a href="https://tailwindcss-netflix.herokuapp.com/" target="_blank"><img height="250" src="./previews/pc.png" width="400"></a>
