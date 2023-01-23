@@ -1,7 +1,7 @@
 
 
 ## DEMOS Netflix with tailwindcss
-<a href="https://tailwincss-netflix.vercel.app/" target="_blank">Voir en direct</a>
+<a href="https://tailwincss-netflix-qyx6ki80n-ange0.vercel.app/" target="_blank">Voir en direct</a>
 
 <div style="display:flex"> 
   <a href="https://tailwincss-netflix.vercel.app/" target="_blank"><img height="250" src="./previews/pc.png" width="400"></a>
